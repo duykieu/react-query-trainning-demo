@@ -1,0 +1,46 @@
+{
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": false,
+    "trailingComma": "es5"
+  },
+  "name": "@dontloop/admin-ui",
+  "author": "KieuDuy",
+  "module": "dist/admin-ui.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/admin-ui.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/admin-ui.esm.js",
+      "limit": "10 KB"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gcloud builds submit --tag asia.gcr.io/dontloop/inlano-api . && gcloud run deploy matbangsaigon-api --image asia.gcr.io/main-ifrastructure/matbangsaigon-api --platform managed --region asia-southeast1",
+    "deploy:inlano": "gcloud builds submit --tag asia.gcr.io/dontloop/inlano-api . && gcloud run deploy inlano-api --image asia.gcr.io/dontloop/inlano-api --platform managed --region asia-southeast1",
+    "deploy:mbsg": "gcloud builds submit --tag asia.gcr.io/dontloop/matbangsaigon-api . && gcloud run deploy inlano-api --image asia.gcr.io/dontloop/inlano-api --platform managed --region asia-southeast1",
+    "migrations": "python manage.py makemigrations",
+    "migrate": "python manage.py migrate",
+    "shell": "python manage.py shell",
+    "get": "pip install -r requirements.txt",
+    "initsettings": "python manage.py initsettings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://duykieu@github.com/duykieu/matbangsaigon-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duykieu/matbangsaigon-api/issues"
+  },
+  "homepage": "https://github.com/duykieu/matbangsaigon-api#readme"
+}

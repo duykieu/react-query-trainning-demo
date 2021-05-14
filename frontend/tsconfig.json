@@ -1,0 +1,42 @@
+{
+  "exclude": ["node_modules", "dist", "lib", "__tests__", "**/*.test*", "**/*.spec*"],
+  "files":  [],
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["dom", "esnext"],
+    "jsx": "react",
+    "rootDir": ".",
+    "moduleResolution": "node",
+    "outDir": "lib",
+
+    "downlevelIteration": true,
+    "strict": true,
+    "removeComments": false,
+
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@dontloop/*": ["packages/*/src"]
+    },
+    // https://github.com/RyanCavanaugh/learn-a/#tsconfigsettingsjson
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+  },
+  "references": [
+    { "path": "packages/data" },
+    { "path": "packages/inlano-admin" },
+    { "path": "packages/inlano-theme" },
+    { "path": "packages/inlano-web" },
+    { "path": "packages/utils" },
+  ]
+}

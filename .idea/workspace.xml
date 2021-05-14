@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e715703f-47ce-43b0-9534-715fff001825" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo-cms-api/cms/management/commands/fakepages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin-ui/src/components/EditDelete.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin-ui/src/components/ListItemCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin-ui/src/components/PageTitle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/AuthorizedRoutes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/components/ListItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/data/models/category.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/data/models/page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/data/models/post.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/data/mutations/category.mutation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/data/mutations/mutation.base.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/data/mutations/user.mutation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/data/queries/category.query.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/data/queries/page.query.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/data/queries/pagination.base.query.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/data/queries/post.query.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/pages/HomePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/pages/LoginPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/pages/category/CategoryForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/pages/category/CategoryIndex.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/pages/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/pages/page/PageForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/pages/page/PageIndex.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/pages/post/PostForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/pages/post/PostIndex.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-cms-api/cms/management/commands/fakecmscategories.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo-cms-api/cms/management/commands/fakecmscategories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-cms-api/cms/management/commands/fakeposts.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo-cms-api/cms/management/commands/fakeposts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-cms-api/cms/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo-cms-api/cms/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-cms-api/cms/serializers/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo-cms-api/cms/serializers/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-cms-api/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo-cms-api/cms/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/.idea/prettier.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/admin-ui/src/colors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin-ui/src/colors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/admin-ui/src/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin-ui/src/components/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/admin-ui/src/components/Panel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin-ui/src/components/Panel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/admin-ui/src/components/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin-ui/src/components/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/admin-ui/src/components/TopBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin-ui/src/components/TopBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/admin-ui/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin-ui/src/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/.gcloudignore" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/.gcloudignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/.github/workflows/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/.github/workflows/size.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/.watchmanconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/banner.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/cms/category.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/cms/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/cms/page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/cms/post.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/common/content_type.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/common/image.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/common/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/common/menu.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/common/menu_item.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/common/permission.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/common/tag.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/common/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/data/models/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/common/user_group.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/crm/customer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/crm/customer_tag.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/crm/deal.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/crm/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/local/district.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/local/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/local/province.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/local/street.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/local/ward.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/message.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/data/models/model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/property/category.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/property/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/property/price_model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/property/property.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/property/property_history.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/setting.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/shop/collection.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/shop/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/shop/option.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/shop/option_value.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/shop/pricing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/shop/product.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/models/shop/variant.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/cms/category.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/cms/category.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/cms/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/cms/page.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/cms/page.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/cms/post.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/cms/post.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/content_type.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/crm/customer.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/crm/customer.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/crm/customer_tag.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/crm/customer_tag.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/crm/deal.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/crm/deal.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/crm/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/image/image.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/image/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/local/district.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/local/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/local/province.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/local/street.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/local/ward.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/menu/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/menu/menu.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/menu/menu.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/menu/menu_item.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/menu/menu_item.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/message.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/message.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/mutation.base.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/property/category.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/property/category.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/property/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/property/price_model.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/property/price_model.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/property/property.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/property/property.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/query.base.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/query.infinite.base.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/query.pagination.base.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/setting/banner.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/setting/banner.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/setting/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/setting/setting.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/setting/setting.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/shop/collection.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/shop/collection.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/shop/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/shop/product.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/shop/product.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/tag/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/tag/tag.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/tag/tag.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/user/group.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/user/group.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/user/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/user/permission.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/user/user.mutation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/query/user/user.query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/auth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/common/global.hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/common/global.reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/common/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/common/tag.action.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/common/tag.hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/common/tag.reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/common/tag.schema.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/common/tag.type.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/factories/action.factory.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/factories/action.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/factories/domain.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/factories/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/factories/reducer.factory.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/menu/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/menu/menu.action.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/menu/menu.hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/menu/menu.reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/menu/menu.schema.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/menu/menu.type.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/users/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/users/user.action.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/users/user.hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/users/user.reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/users/user.type.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/users/user_group.action.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/users/user_group.hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/users/user_group.reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/users/user_group.schema.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/state/users/user_group.type.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/src/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/data/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/.eslintcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/.firebaserc" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/.firebaserc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/.gcloudignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/config/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/config/env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/config/getHttpsConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/config/getHttpsConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/config/jest/cssTransform.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/config/jest/cssTransform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/config/jest/fileTransform.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/config/jest/fileTransform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/config/modules.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/config/modules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/config/paths.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/config/paths.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/config/pnpTs.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/config/pnpTs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/config/webpackDevServer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/config/webpackDevServer.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/devices.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/devices.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/firebase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/public/images/logo-dontloop" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/public/images/logo-dontloop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/public/images/logo-dontloop.png" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/public/images/logo-dontloop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/public/images/logo-inlano.png" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/public/images/logo-inlano.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/public/images/no-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/public/images/no-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/scripts/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/scripts/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/scripts/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/scripts/start.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/scripts/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/scripts/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/AuthProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/components/AuthProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/AuthorizedRoutes.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/Contact.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/CreateUserForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/FormikEditorFormGroup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/components/FormikEditorFormGroup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/FormikFormTextArea.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/components/FormikFormTextArea.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/FormikInputFormGroup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/components/FormikInputFormGroup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/FormikInputNumberFormGroup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/components/FormikInputNumberFormGroup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/FormikSelectFormGroup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/components/FormikSelectFormGroup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/MainContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/components/MainContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/MutationError.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/Pagination.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/PropertyImages.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/Routers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/components/Routers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/SliderCompose.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/Uploader.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/data/menu.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/menu.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/env/inlano.dev.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/env/inlano.dev.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/env/inlano.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/env/inlano.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/env/matbangsaigon.dev.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/env/matbangsaigon.dev.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/hooks/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/hooks/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/hooks/pagination.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/hooks/useDocumentTitle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/hooks/useDocumentTitle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/HomePage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/LoginPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/ProductsPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/TagPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/cms/categories/CategoryForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/cms/categories/CategoryIndex.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/cms/categories/CategoryItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/cms/pages/PageForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/cms/pages/PageIndex.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/cms/pages/PageListItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/cms/posts/PostForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/cms/posts/PostIndex.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/cms/posts/PostListItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/BoardPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/CrmProductFilter.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/CustomerCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/CustomerForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/CustomerPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/CustomerPropertySearch.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/CustomerRelationship.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/DealCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/DealCreateForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/DealLabel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/DealPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/DealUpdateForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/ProductCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/ProductDetail.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/ProductPageProductCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/PropertyPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/TagForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/helpers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/crm/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/menus/MenuIndex.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/menus/MenuPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/menus/components/MenuForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/menus/components/MenuItemForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/messages/MessageIndex.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/messages/MessageStatus.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/properties/PropertyDetail.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/properties/PropertyFilter.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/properties/PropertyForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/properties/PropertyIndex.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/properties/PropertyListItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/properties/PropertyStatusIcon.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/settings/BannerForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/settings/BannerPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/settings/SettingsItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/settings/SettingsPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/shop/collections/CollectionForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/shop/collections/CollectionIndex.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/shop/collections/CollectionItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/shop/collections/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/shop/options/OptionForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/shop/options/OptionIndex.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/shop/options/OptionItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/shop/options/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/shop/products/ProductForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/shop/products/ProductIndex.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/shop/products/ProductList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/shop/products/ProductListItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/shop/products/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/tags/TagForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/tags/TagIndex.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/tags/tag.hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/users/UserForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/users/UserGroupForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/users/UserGroupIndex.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/users/UserGroupItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/users/UserIndex.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/users/UserItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/pages/users/users.hooks.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/reportWebVitals.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-admin/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/admin/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/.env.production" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/.gcloudignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/.idea/web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/colors.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/ContactSidebar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/Footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/Instructions.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/Layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/Loading.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/MainNavigation.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/OrderForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/PostListItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/ProductItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/ProductListItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/ProductSlider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/ProductsBlock.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/SidebarLayout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/Slider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/Spacer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/TopBar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/components/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/devices.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/next-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/nodemon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/pages/_app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/pages/bai-viet/[slug].tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/pages/chuyen-muc/[slug].tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/pages/chuyen-muc/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/pages/contact.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/pages/danh-muc/[slug].tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/pages/danh-muc/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/pages/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/pages/san-pham-in-an/[slug].tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/digital-printing-concept.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/digital-printing-concept/3586628.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/digital-printing-concept/3586629.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/digital-printing-concept/3586630.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/digital-printing-concept/Fonts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/digital-printing-concept/License free.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/digital-printing-concept/License premium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/home-banner" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/home-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/sample/ban_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/sample/ban_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/sample/img_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/sample/img_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/sample/img_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/sample/img_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/sample/img_05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/sample/img_06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/sample/img_07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/sample/img_08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/images/sample/img_09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/post-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/tsconfig.server.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/inlano-web/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/packages/utils/src/regexs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/packages/utils/src/regexs.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-react-query/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/demo-react-query/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/demo-cms-api/cms" />
+  </component>
+  <component name="ProjectId" id="1sWQUXhGg9CG2GgvxubvzrvVvHO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e715703f-47ce-43b0-9534-715fff001825" name="Default Changelist" comment="" />
+      <created>1620985888210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620985888210</updated>
+      <workItem from="1620985889784" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

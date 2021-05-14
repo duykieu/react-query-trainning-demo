@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dkproduct",
+  "private_key_id": "842f5b7aac1e6ee4341ffc04f3d3c1fdf1d626b8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDZkgLAftSYLoE/\neTqJllFG9pclskcotPP3HRk0RHGWdJ3NiIgPPR2de/ZJxZCrI6cI7N/1YXcSfMjU\nYoYLhS0r1+IMwaaxuIlQJhoYlRT/Ld1Sd+v5wgUcJTkpzPOOpc0RPkWSQMkUOzzD\n04JymXc8X4orQSa+A+ST7la+5dlULslU4GLhSHoR3se7PuLXq8t0bXmurxWNDFY9\n2x8X1wlDyQhUjWIoApskhRAZdIYNDvAbkh5e+W/pFjYnC+yh27jlgsHojSKGuu2a\nBtkTO33mFNmB0bqpVjJOHyY5QdBJYjiRFUyX7M43gXwOuEw4thJ9MeGoOe7p5hQx\n34Vjf3rvAgMBAAECggEAS6v2/RCfzJZQKc12SKhZeH8HrvrEuSnGuKoMPBuaDiRd\nRkE4YWR2SnH1BU+Ls5pg3D/W3Tea/HkeOJBT4unc/iTF4H3yBloSmCfIZ8hiVyaS\nlb5T+rg6osFnklxQUcrk+hxYgje6OCkqR0nnUwiBaiQooEa2vNwJwlHhJeA3qIlB\nDF3hUS44q04i4zyj1xz4ruBOkneG+yOJrwsFJZk4pdkmQgcb9zMBr7FhM9EEoqQE\n1Kvsu9RbMHEx0p5/HaN6Ndfw4ljQftM0G/HztzWWcBt69yBibP3IEKWVexcqnhrT\npvKzyUK4MDXjrLeb13Xogqg5SCGCnf5Ekc33RJCnwQKBgQDy7MvGEkfh9W2tc42G\nimJMmaeVf1ZqkeIbEn34/1UiP3F2bbWJ5NbKNybdZy5y/+qWg1XvDR7lcThKHBqv\nnv/WFm+OSWi18j7rcXiKUMrfVi1ogtic8Zx+4FJqMIZcJ8XSs1HV8zeyFXI+qilK\nzVZMt5HTgKuJEejajUtW1QyI0QKBgQDlR9wIv9K6df0sgPnyIGYXjaZQ3sBb4n7t\nITP/BvufGpqvctVxADkrzQK49goM/YvFbV539vuA9TNo3c//WfAJP8Pyhfz4qEyg\nHwJCtPKzekvm7/nLg3nxFRneJXn1I5gFQm849ofx5Nl9SmA7uAo3BO//mFoNh0uo\nBUWeudi3vwKBgQCii6feJSVMILj+sq8kMzyLHNVxxv6/2FV+3+TC07bXb7QwFkC+\nwAyoyjaLNxtxf6QsijzZ8+GUjSmpDR0eHjn5upFyl9Qkyq8nQ4nwoxbcUgGYSNVA\nTrr0eo0q2MVOrJ5F2g8MJe5Cju8e1yVCFBuGwd4ls5cT5JP2iUy8EVqNwQKBgQDX\ndxRcVIggGkl1zS8WT0Qh1kf5r5ttvggxqAZJH7LO7h13y56xttgDRYHNd8oyMwNq\n4UDp0/y+T6+kWO7itQ5SYs4t16THuMFpqDpjndCGweMaf2Jr0n6CBKZukSFvMafn\nKWuESImw1LNefsq41FclJUq1E+Ns2zxKBcpLQ7NZ2QKBgEqNDdKUCFiJEEbJfMIn\nALy+lGZxS4b/4mq8HIAgP4KzDAHAKfwAEACy4XATTfBTSgjnBgHMXHyR7dCQ8TeI\nrxm7eRSXdOfhXi/i+92/tqjRFjKM/vfEnH7JAaLpJxSJjQdOr/EA71x1MM+q3xPC\nbZ3twfept8l15FIw1UPUVeo5\n-----END PRIVATE KEY-----\n",
+  "client_email": "inlano@dkproduct.iam.gserviceaccount.com",
+  "client_id": "112709990186168169350",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/inlano%40dkproduct.iam.gserviceaccount.com"
+}

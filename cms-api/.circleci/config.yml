@@ -1,0 +1,22 @@
+jobs:
+  build_and_deploy:
+    docker:
+      - image: 'cimg/base:stable'
+    steps:
+      - checkout
+      - cloudrun/init
+      - cloudrun/build:
+          tag: 'gcr.io/${GOOGLE_PROJECT_ID}/${PROJECT_ID}'
+      - cloudrun/deploy:
+          image: 'gcr.io/${GOOGLE_PROJECT_ID}/${PROJECT_ID}'
+          platform: managed
+          region: asia-southeast1
+          service-name: matbangsaigon-api
+          unauthenticated: true
+orbs:
+  cloudrun: circleci/gcp-cloud-run@1.0.2
+version: 2.1
+workflows:
+  build_and_deploy_to_managed_workflow:
+    jobs:
+      - build_and_deploy

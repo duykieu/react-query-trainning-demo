@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  inlano-api:
+    build:
+      context: .
+    ports:
+      - 8001:8000
+    environment:
+      - PROFILE=matbangsaigon.prod

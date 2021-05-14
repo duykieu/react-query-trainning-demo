@@ -1,0 +1,65 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   scope: [ '@dontloop/inlano-web', '@dontloop/inlano-admin' ],
+0 silly argv   parallel: true,
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': '/Users/jeffreyk/Sites/dontloop/node_modules/.bin/lerna',
+0 silly argv   script: 'dev'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/jeffreyk/Sites/dontloop
+3 info versioning independent
+4 notice filter including ["@dontloop/inlano-web","@dontloop/inlano-admin"]
+5 info filter [ '@dontloop/inlano-web', '@dontloop/inlano-admin' ]
+6 info Executing command in 2 packages: "yarn run dev"
+7 silly npmRunScript.stream [ 'dev', [], '@dontloop/inlano-admin' ]
+8 silly getExecOpts /Users/jeffreyk/Sites/dontloop/packages/inlano-admin undefined
+9 silly npmRunScript.stream [ 'dev', [], '@dontloop/inlano-web' ]
+10 silly getExecOpts /Users/jeffreyk/Sites/dontloop/packages/inlano-web undefined
+11 error Error: Command failed: yarn run dev
+11 error
+11 error $ node scripts/start.js
+11 error [34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.0.105/
+11 error [34mℹ[39m [90m｢wds｣[39m: webpack output is served from
+11 error [34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /Users/jeffreyk/Sites/dontloop/packages/inlano-admin/public
+11 error [34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+11 error Starting the development server...
+11 error
+11 error Compiled successfully!
+11 error
+11 error You can now view @dontloop/inlano-admin in the browser.
+11 error
+11 error   Local:            http://localhost:3000
+11 error   On Your Network:  http://192.168.0.105:3000
+11 error
+11 error Note that the development build is not optimized.
+11 error To create a production build, use yarn build.
+11 error
+11 error Compiling...
+11 error Compiled successfully!
+11 error Compiling...
+11 error Compiled successfully!
+11 error Compiling...
+11 error Compiled successfully!
+11 error Compiling...
+11 error Compiled successfully!
+11 error Compiling...
+11 error Failed to compile.
+11 error
+11 error /Users/jeffreyk/Sites/dontloop/packages/inlano-admin/src/pages/users/UserIndex.tsx
+11 error TypeScript error in /Users/jeffreyk/Sites/dontloop/packages/inlano-admin/src/pages/users/UserIndex.tsx(72,15):
+11 error Type '{ current: number; total: number | undefined; onChange: any; onShowSizeChange: any; pageSize: number; }' is not assignable to type 'IntrinsicAttributes & IPaginationProps & { children?: ReactNode; }'.
+11 error   Property 'current' does not exist on type 'IntrinsicAttributes & IPaginationProps & { children?: ReactNode; }'.  TS2322
+11 error
+11 error     70 |           <PaginationWrapper>
+11 error     71 |             <Pagination
+11 error   > 72 |               current={pagination.currentPage}
+11 error        |               ^
+11 error     73 |               total={count}
+11 error     74 |               onChange={pagination.handlePageChange}
+11 error     75 |               onShowSizeChange={pagination.handlePageSizeChange}
+11 error Compiling...
+11 error Compiled successfully!
+11 error
+11 error     at makeError (/Users/jeffreyk/Sites/dontloop/node_modules/execa/index.js:174:9)
+11 error     at /Users/jeffreyk/Sites/dontloop/node_modules/execa/index.js:278:16

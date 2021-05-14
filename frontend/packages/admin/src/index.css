@@ -1,0 +1,31 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: "Andika New Basic", sans-serif !important;
+  background-color: #1e3faa !important;
+  padding: 1.5rem;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.query-devtool-wrapper div div div {
+  font-size: 1.3rem !important;
+}
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
